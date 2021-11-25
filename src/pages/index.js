@@ -17,6 +17,9 @@ const IndexPage = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Home - Ecommerce Website</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Eczar&family=Quicksand:wght@300&display=swap" rel="stylesheet" />
         <meta name="description" content="Ecommerce website" />
       </Helmet>
       <section className="full-height">
