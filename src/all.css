@@ -24,9 +24,6 @@ word-wrap: break-word;
 a {
     text-decoration: none;
 }
-img {
-    object-fit: cover;
-}
 input {
     box-sizing: border-box;
 }
@@ -74,6 +71,9 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     gap: 1em;
+}
+.flex-horizontal img {
+    object-fit: cover;
 }
 .flex-vertical {
     display: flex;
