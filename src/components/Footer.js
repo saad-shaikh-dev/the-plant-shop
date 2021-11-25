@@ -14,7 +14,7 @@ const Footer = () => {
                     <img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="instagram" />
                 </a>
             </div>
-            <p>This website was designed by Saad Shaikh</p>
+            <p>This website was designed by <a href="https://saad-shaikh-portfolio.netlify.app/">Saad Shaikh</a></p>
         </footer>
     )
 }
