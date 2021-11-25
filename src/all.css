@@ -24,6 +24,9 @@ word-wrap: break-word;
 a {
     text-decoration: none;
 }
+img {
+    object-fit: cover;
+}
 input {
     box-sizing: border-box;
 }
