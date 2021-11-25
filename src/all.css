@@ -26,10 +26,6 @@ word-wrap: break-word;
 a {
     text-decoration: none;
 }
-div {
-    display: grid;
-    place-items: center;
-}
 input {
     box-sizing: border-box;
 }
