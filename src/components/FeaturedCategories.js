@@ -11,7 +11,7 @@ const FeaturedCategories = () => {
                     <span className="image-label font-one-point-five">Anthocerotaceae</span>
                 </div>
                 <div className="flex-vertical hover-box-shadow image-container">
-                    <img className="image-darken" src="https://nyc.books.plantsofsuburbia.com/wp-content/uploads/2015/04/Dactylis-glomerata.commons.wikipedia.org_.jpg" alt="Poaceae"></img>
+                    <img className="image-darken" loading="lazy" src="https://nyc.books.plantsofsuburbia.com/wp-content/uploads/2015/04/Dactylis-glomerata.commons.wikipedia.org_.jpg" alt="Poaceae"></img>
                     <span className="image-label font-one-point-five">Poaceae</span>
                 </div>
                 <div className="flex-vertical hover-box-shadow image-container">
