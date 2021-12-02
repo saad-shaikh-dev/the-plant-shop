@@ -13,7 +13,7 @@ const Advertisement = () => {
             {data.map((product) => {
                 return (
                     <div className="flex-horizontal gap-three column-two" key={product.id}>
-                        <div><img src={product.image} alt={product.item_name}></img></div>
+                        <div><img src={product.image} loading="lazy" alt={product.item_name}></img></div>
                         <div>
                             <h3 className="border-bottom">{product.item_name}</h3>
                             <p className="background-white"><small>{product.item_description}</small></p>
