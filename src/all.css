@@ -201,9 +201,6 @@ section {
   color: var(--main-color);
   font-weight: bold;
 }
-.website-title {
-    max-width: 200px;
-}
 .nav-toggle {
   z-index: 3;
 }
