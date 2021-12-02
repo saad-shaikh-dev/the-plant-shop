@@ -7,7 +7,7 @@ const FeaturedCategories = () => {
             <h2>Featured Plant Families</h2>
             <div className="flex-horizontal item-list">
                 <div className="flex-vertical hover-box-shadow image-container">
-                    <img className="image-darken" src="https://www.bryo.cz/sites/Image/bryo/anthoceros_agrestis/1105_Anthoceros_agrestis_2010_08_20_7326.jpg" alt="Anthocerotaceae"></img>
+                    <img className="image-darken" loading="lazy" src="https://www.bryo.cz/sites/Image/bryo/anthoceros_agrestis/1105_Anthoceros_agrestis_2010_08_20_7326.jpg" alt="Anthocerotaceae"></img>
                     <span className="image-label font-one-point-five">Anthocerotaceae</span>
                 </div>
                 <div className="flex-vertical hover-box-shadow image-container">
