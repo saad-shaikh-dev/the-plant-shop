@@ -5,8 +5,8 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="nav-title">
-                <img src="logo.svg" alt="Ecommerce"></img>
-                <img className="website-title" src="the-plant-shop.svg" alt="The Plant Shop"></img>
+                <img className="nav-title-image" src="logo.svg" alt="Ecommerce"></img>
+                <img className="nav-title-text" src="the-plant-shop.svg" alt="The Plant Shop"></img>
             </div>
 
             <input className="nav-toggle" type="checkbox" />
