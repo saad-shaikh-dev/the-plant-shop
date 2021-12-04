@@ -13,7 +13,7 @@ const FeaturedItems = () => {
                 {data.slice(0, 4).map((product) => {
                     return (
                         <div className="card-four-columns" key={product.id}>
-                            <img src={product.image} alt={product.item_name} />
+                            <img src={product.image} loading="lazy" alt={product.item_name} />
                             <h3 className="margin-bottom-remove">{product.item_name}</h3>
                             <p className="margin-remove">{product.item_category} family</p>
                             <p className="margin-top-min"><strong>{product.price}</strong></p>
