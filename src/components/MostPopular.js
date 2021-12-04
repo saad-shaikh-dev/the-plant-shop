@@ -14,7 +14,7 @@ const Brands = () => {
                     return (
 
                         <div className="image-container hover-box-shadow height-one-seventy-five">
-                            <img className="image-darken" src={product.image} alt={product.most_popular}></img>
+                            <img className="image-darken" loading="lazy" src={product.image} alt={product.most_popular}></img>
                             <span className="image-label font-one-point-two-five">{product.item_name}</span>
                         </div>
 
