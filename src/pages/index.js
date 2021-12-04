@@ -32,7 +32,7 @@ const IndexPage = () => {
             <Link className="cta-button" to="/">Start Shopping</Link>
           </div>
           <div>
-            <img src="https://www.ubuy.qa/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvOTFOSzdEUUlPQUwuX0FDX1NMMTUwMF8uanBn.jpg" alt="hero" />
+            <img loading="lazy" src="https://www.ubuy.qa/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvOTFOSzdEUUlPQUwuX0FDX1NMMTUwMF8uanBn.jpg" alt="hero" />
           </div>
         </div>
       </section>
