@@ -15,7 +15,7 @@ const FeaturedCategories = () => {
                     <span className="image-label font-one-point-five">Poaceae</span>
                 </div>
                 <div className="flex-vertical hover-box-shadow image-container">
-                    <img className="image-darken" src="https://farm9.staticflickr.com/8384/8451190233_c0bc5cbc27_z.jpg" alt="Campanulaceae"></img>
+                    <img className="image-darken" loading="lazy" src="https://farm9.staticflickr.com/8384/8451190233_c0bc5cbc27_z.jpg" alt="Campanulaceae"></img>
                     <span className="image-label font-one-point-five">Campanulaceae</span>
                 </div>
             </div>
