@@ -93,13 +93,6 @@ section {
 .flex-horizontal img {
     object-fit: cover;
 }
-.vertical {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-}
 .font-one-point-five {
     font-size: 1.5em;
 }
@@ -148,6 +141,9 @@ section {
 .margin-top-min {
     margin-top: .5em;
 }
+.max-height {
+    min-height: 100vh;
+}
 .max-width {
     width: clamp(200px, 90%, 1000px);
 }
@@ -158,6 +154,13 @@ section {
     border-bottom: 3px solid var(--main-color);
     padding-bottom: 5px;
     width: fit-content;
+}
+.vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 .wrap {
     display: flex;
