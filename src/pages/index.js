@@ -13,7 +13,7 @@ import Footer from "../components/Footer"
 
 const IndexPage = () => {
   return (
-    <div className="layout center-items">
+    <main class="max-width">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Home - Ecommerce Website</title>
@@ -22,9 +22,9 @@ const IndexPage = () => {
         <link href="https://fonts.googleapis.com/css2?family=Eczar&family=Quicksand:wght@300&display=swap" rel="stylesheet" />
         <meta name="description" content="Ecommerce website" />
       </Helmet>
-      <section className="full-height">
+      <section className="vertical full-height">
         <Navbar />
-        <div className="hero">
+        <div className="wrap columns-two hero">
           <div>
             <h2>Bring some freshness into your life</h2>
             <p>Energise your life by adorning your home with some beautiful and fresh plants.</p>
